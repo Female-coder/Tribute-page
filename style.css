@@ -1,0 +1,40 @@
+#title {
+  font-size: 400%;
+  text-align: center;
+}
+
+#image {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+  border-radius: 50%;
+}
+#img-caption {
+  justify-content: center;
+  align-content: center;
+  font-style: italic;
+  width: 50%;
+  display: flex;
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 767px) {
+}
+
+@media only screen and (min-width: 991px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .font {
+    padding: 0px 200px 15px 200px;
+  }
+}
+
+@media (orientation: landscape) {
+}
